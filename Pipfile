@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = ">=3.3.2"
+argon2-cffi = ">=16.1.0"
+"backports.zoneinfo" = "*"
+bcrypt = "*"
+docutils = "*"
+geoip2 = "*"
+numpy = "*"
+pylibmc = "*"
+pymemcache = ">=3.4.0"
+python-memcached = ">=1.59"
+pytz = "*"
+pywatchman = "*"
+redis = ">=3.0.0"
+selenium = "*"
+sqlparse = ">=0.2.2"
+tblib = ">=1.5.0"
+tzdata = "*"
+colorama = "*"
+Jinja2 = ">=2.9.2"
+Pillow = ">=6.2.0"
+PyYAML = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
